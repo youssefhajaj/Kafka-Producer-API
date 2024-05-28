@@ -32,7 +32,7 @@ Before running this example, ensure you have the following installed:
 
 6. Create Kafka Consumer.
    ```bash
-   bin\windows\kafka-console-consumer --topic Topic1 --bootstrap-server localhost:9092
+   start bin\windows\kafka-console-consumer --topic Topic1 --bootstrap-server localhost:9092
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
