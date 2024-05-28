@@ -20,7 +20,7 @@ Before running this example, ensure you have the following installed:
     cd c:\kafka
 3. Make sure Apache Kafka is running.
     ```bash
-    start bin\windows\zookeeper-server-start config\zookeeper.properties
+    start bin\windows\kafka-server-start config\server.properties
 
 4. Also run the zookeeper-server.
     ```bash
