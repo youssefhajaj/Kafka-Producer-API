@@ -18,13 +18,13 @@ Before running this example, ensure you have the following installed:
 2. Navigate to the Kafka directory.
     ```bash
     cd c:\kafka
-3. Make sure Apache Kafka is running.
-    ```bash
-    start bin\windows\kafka-server-start config\server.properties
-
-4. Also run the zookeeper-server.
+3. run the zookeeper-server.
     ```bash
     start bin\windows\zookeeper-server-start config\zookeeper.properties
+
+4. Make sure Apache Kafka is running.
+    ```bash
+    start bin\windows\kafka-server-start config\server.properties
 
 5. Create Kafka topics.
    ```bash
